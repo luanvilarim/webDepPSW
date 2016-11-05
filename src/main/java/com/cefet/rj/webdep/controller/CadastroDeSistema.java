@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dao;
+package com.cefet.rj.webdep.controller;
 
 /**
  *
  * @author Luan
  */
-public class CadastroDeSistemaDAO {
+public class CadastroDeSistema {
     
 }
