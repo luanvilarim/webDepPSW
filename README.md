@@ -1,6 +1,6 @@
 # webDepPSW
 
-<p>cadastrosistema.jsp está ligado à controller/CadastroSistema.java que vai receber a entrada do usuário da pág .jsp e de acordo com model/Sistema.java vai preencher essa entidade e guardá-la no banco com dao/CadastroSistemaDAO.java</p>
+<p>(webDepPSW/src/main/webapp/cadastrodesistema.jsp) está ligado à controller/CadastroSistema.java que vai receber a entrada do usuário da pág .jsp e de acordo com model/Sistema.java vai preencher essa entidade e guardá-la no banco com dao/CadastroSistemaDAO.java</p>
 ========================================================================================================
 <p>gerenciadorsistema.jsp vai realizar a listagem/alteração/remoção de sistemas que está no banco. Essa página está ligada à controller/GerenciadorSistema.java que vai assim que a página for iniciada preencher a tabela baseada nos valores tirados do banco. Essa mesma página contém dois links (Alterar e Excluir) que vão apontar novamente para controller/GerenciadorSistema.java(ou podemos criar outro controlador pra cada ação, sem problema, só acho que dá pra fazer em um só) e para cada uma das ações temos dois flows diferentes:</p>
 <ul>
